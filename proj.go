@@ -14,7 +14,9 @@ folder.
 */
 package proj
 
-// #cgo windows CFLAGS: -DHAVE_LOCALECONV
+// #cgo linux CFLAGS: -DLINUX=1
+// #cgo LDFLAGS: -lm
+// #include <math.h>
 // #include "proj_api.h"
 import "C"
 

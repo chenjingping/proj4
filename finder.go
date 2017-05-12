@@ -4,7 +4,9 @@
 
 package proj
 
-// #cgo windows CFLAGS: -DHAVE_LOCALECONV
+// #cgo linux CFLAGS: -DHAVE_LOCALECONV
+// #cgo LDFLAGS: -lm
+// #include <math.h>
 // #include "proj_api.h"
 // extern char *go_finder_wrapper(char *name);
 import "C"
