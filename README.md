@@ -11,10 +11,6 @@ The original library (MIT licensed) can be found at https://github.com/OSGeo/pro
 ## Install
 
 	go get github.com/chenjingping/proj4
-
-## Docs
-
-<http://godoc.org/github.com/xeonx/proj4>
 	
 ## Tests
 
